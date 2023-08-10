@@ -14,6 +14,14 @@ const zh = {
   Copyright: `版权所有`,
   Help: `帮助`,
   Vehicle: `车辆`,
+  Telephone: "电话",
+  Mobilephone: "移动电话（WhatsApp/WeChat）号码",
+  Email: "电子邮件：",
+  Address: "地址：翻斗花园牛爷爷家",
+  Dynamic: `动态`,
+  News1: `新闻 1`,
+  News2: `新闻 2`,
+  News3: `新闻 3`,
 };
 
 export default zh;

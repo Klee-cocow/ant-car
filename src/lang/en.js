@@ -18,5 +18,9 @@ const en = {
   Mobilephone: `Mobile phone(whatsapp/wechat) No.`,
   Email: `E-mail:`,
   Address: `Address: Grandfather's House in the Flower Garden`,
+  Dynamic: `Dynamic`,
+  News1: `News 1`,
+  News2: `News 2`,
+  News3: `News 3`,
 };
 export default en;

@@ -19,5 +19,9 @@ const ft = {
   Mobilephone: "Téléphone portable (WhatsApp/WeChat) n°",
   Email: "E-mail :",
   Address: "Adresse : Maison du grand-père dans le jardin fleuri",
+  Dynamic: `Dynamique`,
+  News1: `Actualité 1`,
+  News2: `Actualité 2`,
+  News3: `Actualité 3`,
 };
 export default ft;

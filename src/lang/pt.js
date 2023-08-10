@@ -19,5 +19,9 @@ const pt = {
   Mobilephone: "Telefone Celular (WhatsApp/WeChat) Nº",
   Email: "E-mail:",
   Address: "Endereço: Casa do avô no jardim das flores",
+  Dynamic: `Dinâmico`,
+  News1: `Notícia 1`,
+  News2: `Notícia 2`,
+  News3: `Notícia 3`,
 };
 export default pt;

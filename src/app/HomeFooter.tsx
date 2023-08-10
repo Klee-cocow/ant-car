@@ -43,10 +43,10 @@ const HomeFooter = () => {
                         <div className='sc-footer-item'>{t(`Address`)}</div>
                     </div>
                     <div className='sc-footer-column'>
-                        <h2>{t('Help')}</h2>
-                        <div className='sc-footer-item'><a target="_blank" rel="noopener noreferrer">帮不了一点</a></div>
-                        <div className='sc-footer-item'><a target="_blank" rel="noopener noreferrer">帮不了一点</a></div>
-                        <div className='sc-footer-item'><a target="_blank" rel="noopener noreferrer">帮不了一点</a></div>
+                        <h2>{t('Dynamic')}</h2>
+                        <div className='sc-footer-item'><a target="_blank" rel="noopener noreferrer">{t(`News1`)}</a></div>
+                        <div className='sc-footer-item'><a target="_blank" rel="noopener noreferrer">{t(`News2`)}</a></div>
+                        <div className='sc-footer-item'><a target="_blank" rel="noopener noreferrer">{t(`News3`)}</a></div>
                     </div>
                 </section>
 
@@ -68,10 +68,7 @@ const HomeFooter = () => {
                         borderTop: '1px solid rgba(255,255,255,.25)',
                     }
                 }>
-                    <div style={{opacity:0.4}}>
-                    Made with <span style={{color:'#fff'}}>❤</span>  by
-                    </div>
-                    Copyright ©2023 <a href='https://beian.miit.gov.cn/'>蜀ICP备2023019723号</a>
+                    Copyright ©2023 <a href='https://beian.miit.gov.cn/'>ICP备xxxx号</a>
                 </div>
             </section>
 
