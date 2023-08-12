@@ -16,6 +16,7 @@ import image2 from '../../public/img/2.jpg';
 import image3 from '../../public/img/3.jpg';
 import image4 from '../../public/img/5.jpg';
 import HomeFooter from './HomeFooter';
+import PageMenu from './component/PageMenu';
 
 const HomePage = () => {
   const { t, i18n } = useTranslation(); // 初始化 i18n
@@ -91,19 +92,7 @@ const HomePage = () => {
             }}
           >
             <h2>LOGO</h2>
-            <Menu
-              theme="light"
-              mode="horizontal"
-              style={{ background: 'transparent', borderBottom: 'none', fontWeight: 'bold', fontSize: 16, alignContent: 'center', width: '90%' }}
-              defaultSelectedKeys={['home']} // 默认选中首页
-            >
-              <Menu.Item key="home" icon={<HomeOutlined />}>
-                {t('Home')} {/* 使用 t 函数来获取翻译文本 */}
-              </Menu.Item>
-              <Menu.Item key="app">{t('Vehicle')}</Menu.Item>
-              <Menu.Item key="Contact">{t('Contact')}</Menu.Item>
-              <Menu.Item key="Blogs">{t('Blogs')}</Menu.Item>
-            </Menu>
+            <PageMenu pageMenuKey="Home"/>
             <Dropdown overlay={localeMenu}>
               <Button
                 style={{
