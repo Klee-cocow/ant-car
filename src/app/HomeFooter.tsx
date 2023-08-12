@@ -1,5 +1,5 @@
 import { AntCloudOutlined, ChromeOutlined, IeOutlined } from '@ant-design/icons';
-import './HomeFooter.css'
+import './css/HomeFooter.css'
 import zhCN from 'antd/es/locale/zh_CN'; // 导入中文资源
 import enUS from 'antd/es/locale/en_US'; // 导入英语资源
 import ptBR from 'antd/es/locale/pt_BR'; // 导入葡萄牙语资源
